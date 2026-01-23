@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Csym.png
+image: img/javasym.png
 title: "Character Counter"
 date: 2025
 published: true
@@ -16,7 +16,7 @@ summary: "A program that reads a String and counts the frequency of each charact
   <img width="600px" src="../img/charcounterout.png" class="img-thumbnail" >
 </div>
 
-This is a program I made in ICS 211 during summer of 2025 and in short is a Java app that counts the frequency of each character in a string, treating upper and lowercase letters as the same. This was built with a HashMap for more efficient tracking, as it demonstrates string manipulation, and basic algorithmic logic. This is good for text analysis and also was a good way for me to learn data structures in Java.
+CharacterCounter is a Java console application I made in ICS 211 during summer of 2025. It analyzes a string and counts the frequency of each character, treating uppercase and lowercase letters as the same. Using a HashMap to efficiently track character occurrences, it demonstrates key programming concepts such as string manipulation, iteration, and the use of collections. The program outputs a frequency breakdown for any input text(as seen above). This makes it a simple yet effective tool for learning data structures and algorithmic thinking in Java.
 
 This is the raw code. Just change string "sampleText" to your own text:
 
