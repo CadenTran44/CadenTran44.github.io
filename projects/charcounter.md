@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/p-80-java.webp
+image: img/javasym.png
 title: "Character Counter"
 date: 2025
 published: true
