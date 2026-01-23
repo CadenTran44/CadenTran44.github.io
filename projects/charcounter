@@ -9,7 +9,6 @@ labels:
   - Java
   - Text Processing
   - HashMap
-
 summary: "Counts the frequency of each character in a string using HashMap, this was made for my ICS 211 class in summer"
 ---
 
