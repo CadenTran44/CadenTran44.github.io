@@ -6,9 +6,9 @@ title: "Character Counter"
 date: 2025
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - Java
+  - Text Processing
+  - HashMap
 summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
 ---
 
