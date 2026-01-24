@@ -86,6 +86,7 @@ int div2(int a, int b) {
 
 // Example of command line argument: 3 . 2
 ```
+**Makefile:**
 
 ```cpp
 program: filename.o
@@ -94,5 +95,5 @@ program: filename.o
 filename.o: filename.c
 	gcc -c filename.c
 
-  // Change "filename"
+// Change "filename"
   ```
