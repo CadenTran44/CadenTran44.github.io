@@ -1,59 +1,87 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
-published: false
+image: img/Csym.png
+title: "Character Counter"
+date: 2025
+published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - C
+  - Text Processing
+  - HashMap
+summary: "A program that reads a String and counts the frequency of each character."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<div class="text-center p-4">
+  <img width="600px" src="../img/charcounterout.png" class="img-thumbnail" >
+</div>
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+CharacterCounter is a Java program I made in ICS 211 during summer of 2025. It analyzes a string and counts the frequency of each character, treating uppercase and lowercase letters as the same. Using a HashMap to efficiently track character occurrences, it demonstrates key programming concepts such as string manipulation, iteration, and the use of collections. The program outputs a frequency breakdown for any input text(as seen above). This makes it a simple yet effective tool for learning data structures and algorithmic thinking in Java.
 
-To give you a flavor of the game, here is an excerpt from one run:
+This is a C-based command-line calculator that I made in ICS 212 that performs basic arithmetic operations, like addition, subtraction, multiplication, and division. The program accepts three command-line arguments in this order: a digit, an operator, and another digit. Then it validates the input to make sure it has correct formatting and the supported operations before execution.
 
-<hr>
+The program shows fundamental C programming concepts such as command-line argument processing, input validation, function prototypes, and the use of function pointers to dynamically select arithmetic operations. By organizing each operation into its own function and using structured error handling, this project highlights efficient program design and low level problem-solving skills in C.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+## Code Sample
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+```cpp
+#include <stdio.h>
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+int add(int, int);
+int sub(int, int);
+int mul(int, int);
+int div2(int, int);
 
-pickup candle
-- you are now carrying the candle -
+int main(int argc, char *argv[]) {
+    if (argc != 4) {
+        printf("Error: 4 command line arguments are expected, %i present.\n", argc);
+        return 1;
+    }
 
-pickup match
-- you are now carrying the match -
+    if (argv[1][0] < '0' || argv[1][0] > '9') {
+        printf("Error: '%c' is not an integer between 0 - 9.\n", argv[1][0]);
+        return 1;
+    }
 
-light match candle
+    if (argv[3][0] < '0' || argv[3][0] > '9') {
+        printf("Error: '%c' is not an integer between 0 - 9.\n", argv[3][0]);
+        return 1;
+    }
 
-The candle is now lit. It illuminates everything in the room.
+    char op = argv[2][0];
+    if (op != '+' && op != '-' && op != '.' && op != '/') {
+        printf("Error: '%c' is not a valid math operation. Use: + - . /\n", op);
+        return 1;
+    }
 
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
+    int num1 = argv[1][0] - '0';
+    int num2 = argv[3][0] - '0';
 
-<hr>
+    int (*arithmeticOperations[5])(int, int) = {add, NULL, sub, mul, div2};
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+    int index = argv[2][0] - '+';
+
+    int result = (*arithmeticOperations[index])(num1, num2);
+    printf("%i %c %i = %i\n", num1, op, num2, result);
+
+    return 0;
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int sub(int a, int b) {
+    return a - b;
+}
+
+int mul(int a, int b) {
+    return a * b;
+}
+
+int div2(int a, int b) {
+    return a / b;
+}
+
+*// Example of command line argument: 3 . 2*
+```
