@@ -18,7 +18,7 @@ summary: "A program that reads a String and counts the frequency of each charact
 
 CharacterCounter is a Java program I made in ICS 211 during summer of 2025. It analyzes a string and counts the frequency of each character, treating uppercase and lowercase letters as the same. Using a HashMap to efficiently track character occurrences, it demonstrates key programming concepts such as string manipulation, iteration, and the use of collections. The program outputs a frequency breakdown for any input text(as seen above). This makes it a simple yet effective tool for learning data structures and algorithmic thinking in Java.
 
-This is the raw code, just change string "sampleText" to your own text:
+**Code Sample:**
 
 ```cpp
 import java.util.HashMap;
@@ -57,4 +57,6 @@ public class CharacterCounter {
         }
     }
 }
+
+// Change string "sampleText" to your own text
 ```
