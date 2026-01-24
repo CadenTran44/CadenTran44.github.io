@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Csym.png
-title: "Character Counter"
+title: "Basic Arithmetic Calculator"
 date: 2025
 published: true
 labels:
