@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: img/pythonsym.png
-title: "Character Counter"
+title: "Hangman Game"
 date: 2024
 published: true
 labels:
   - Python
   - Beginner Project
   - Game
-summary: "A program I made back in 2024 that simulates a game of Hangman"
+summary: "This is a program I made back in 2024 that simulates a game of Hangman"
 ---
 
 <div class="text-center p-4">
@@ -18,7 +18,7 @@ summary: "A program I made back in 2024 that simulates a game of Hangman"
 
 This project the first one I made outside of school reasons and represents an important step in trying to apply programming skills independently. It is a Python-based command-line implementation of the classic Hangman game, where a random word is selected from a predefined list and the user guesses letters one at a time. The program updates the displayed word as correct guesses are made and tracks incorrect guesses by limiting the number of remaining attempts, providing clear feedback after each turn.
 
-Working on this project helped reinforce core programming concepts such as loops, conditional logic, lists, and user input handling. It also strengthened my problem-solving skills by requiring me to think through game flow, edge cases, and user interaction without structured classroom guidance. This project reflects my growth from when I started with Python and my ability to build interactive programs more independently.
+Working on this project helped reinforce core programming concepts such as loops, conditional logic, lists, and user input handling. It also strengthened my problem-solving skills by requiring me to think through game flow, edge cases, and user interaction without structured teaching guidance. This project reflects my growth from when I started with Python and my ability to build interactive programs more independently.
 
 **Code Sample:**
 
