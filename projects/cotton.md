@@ -9,7 +9,7 @@ labels:
   - C
   - Text Processing
   - HashMap
-summary: "A program that performs basic arithmetic operations using user provided arguments.
+summary: "A program that performs basic arithmetic operations using user provided arguments."
 ---
 
 <div class="text-center p-4">
