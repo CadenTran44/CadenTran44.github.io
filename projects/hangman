@@ -1,0 +1,79 @@
+---
+layout: project
+type: project
+image: img/javasym.png
+title: "Character Counter"
+date: 2025
+published: true
+labels:
+  - Python
+  - Beginner Project
+  - Game
+summary: "A Python command-line Hangman game that lets users guess letters, tracks remaining attempts, and reveals the hidden word as the game progresses."
+---
+
+<div class="text-center p-4">
+  <img width="600px" src="../img/charcounterout.png" class="img-thumbnail" >
+</div>
+
+This project is a Python-based command-line implementation of the classic Hangman game. The program randomly selects a word from a predefined list and prompts the user to guess letters one at a time, updating the displayed word as correct guesses are made. It also tracks incorrect guesses by limiting the number of remaining attempts, providing clear feedback after each guess to guide the player.
+
+Throughout this project, core programming concepts such as loops, conditional logic, lists, and user input handling are demonstrated in a clear and accessible way. The game emphasizes step-by-step problem solving and reinforces foundational Python skills, making it a strong example of beginner-level game logic and interactive program design.
+
+**Code Sample:**
+
+```cpp
+import random
+
+word_bank = ["council", "insurance", "spot", "keep", "fascinate", "treatment", "policy", "decisive",
+             "dialect", "pat", "fast", "disaster", "rainbow", "siege"] # change to your own words
+
+word = random.choice(word_bank)
+
+display = []
+for letter in word:
+    display.append("_")
+
+guessed_letters = []
+lives = 6
+
+print("Hangman Game")
+print(" ".join(display))
+
+while lives > 0 and "_" in display:
+    guess = input("Guess a letter: ").lower()
+
+    if len(guess) != 1:
+        print("Only one letter.")
+        print()
+        continue
+
+    if guess in guessed_letters:
+        print("Guessed that letter already.")
+        print()
+        continue
+
+    guessed_letters.append(guess)
+
+    if guess in word:
+        print()
+        print("Correct guess!")
+        for i in range(len(word)):
+            if word[i] == guess:
+                display[i] = guess
+    else:
+        lives -= 1
+        print()
+        print("Wrong guess.")
+        print("Lives left:", lives)
+
+    print(" ".join(display))
+    print("Guessed letters:", guessed_letters)
+
+if "_" not in display:
+    print()
+    print("You win! The word was:", word)
+else:
+    print()
+    print("Game over. The word was:", word)
+```
