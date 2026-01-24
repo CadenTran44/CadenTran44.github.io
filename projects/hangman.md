@@ -13,7 +13,7 @@ summary: "This is a program I made back in 2024 that simulates a game of Hangman
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/charcounterout.png" class="img-thumbnail" >
+  <img width="600px" src="../img/hangmanout.png" class="img-thumbnail" >
 </div>
 
 This project the first one I made outside of school reasons and represents an important step in trying to apply programming skills independently. It is a Python-based command-line implementation of the classic Hangman game, where a random word is selected from a predefined list and the user guesses letters one at a time. The program updates the displayed word as correct guesses are made and tracks incorrect guesses by limiting the number of remaining attempts, providing clear feedback after each turn.
