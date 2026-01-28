@@ -12,6 +12,9 @@ labels:
 ---
 ## Interests in Security-Focused Software Engineering ##
 My main interests in software engineering are areas such as cybersecurity, network security, and cryptography. I’ve always been interested in how software can be designed not only to function correctly, but also to protect sensitive data and systems from potential threats. As technology becomes more connected, security feels like an essential part of software rather than an optional feature. Learning more about how security fits into the software development process has made me more curious about how vulnerabilities occur, why they are often overlooked, and what developers can do at the code level to prevent them before they become serious issues.
+<p align="center">
+  <img src="img/cybersec.jpg" width="400">
+</p>
 
 ## Goals for Developing Technical Security Skills ##
 In the future, I hope to build stronger technical skills in secure software development and networking concepts. I want to better understand how encryption, authentication, and secure communication work, since these ideas play a major role in both cybersecurity and cryptography. Having a deeper understanding of how networks operate, how data moves between systems, and where weaknesses can appear is important for recognizing real-world security risks. Developing this knowledge would help me understand not just how attacks happen, but also how systems can be designed more securely from the start.
