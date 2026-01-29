@@ -22,7 +22,6 @@ I also want to improve my problem-solving and analytical skills, since security-
 
 ## Long-Term Focuses ##
 I’m not aiming for anything too extreme, my main goal is to build strong fundamentals in software engineering and combine them with security-focused knowledge. Cybersecurity, network security, and cryptography all feel like areas where good coding practices, careful design, and strong problem-solving skills really make a difference. As I continue learning, I hope to gain the skills and experience needed to contribute to building secure, reliable, and well-designed systems that people can trust.
-<div class="text-center p-4"><img width="300px" src="../img/cybersec.jpg" class="img-thumbnail" >
-</div>
+<div class="text-center p-4"><img width="300px" src="../img/cybersec.jpg" class="img-thumbnail" ></div>
 
 *Used ChatGPT to help with grammar/punctuation*
