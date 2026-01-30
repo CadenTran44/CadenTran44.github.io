@@ -11,7 +11,8 @@ labels:
 ---
 ## Importance of Asking Smart Questions ##
 One of the most important skills for software engineers is knowing how to ask good questions. Eric Raymond’s How to Ask Questions the Smart Way emphasizes that clear, thoughtful questions save time, make it easier for others to help, and contribute to shared knowledge. Platforms like StackOverflow show how the way a question is asked directly affects the quality of the responses it receives.
-<img width="400px" src="../img/smartquest.jpg" class="img-thumbnail" >
+
+<img width="300px" src="../img/smartquest.jpg" class="img-thumbnail" >
 
 ## Learning from a Smart Question ##
 A good example I found is the following StackOverflow post: [SMART Question](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) 
