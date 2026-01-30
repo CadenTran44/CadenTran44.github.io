@@ -1,0 +1,28 @@
+---
+layout: essay
+type: essay
+title: "Exploring Cybersecurity Within Software Engineering"
+# All dates must be YYYY-MM-DD format!
+date: 2026-1-22
+published: true
+labels:
+  - Software Engineering
+  - Cybersecurity
+  - Technical Essay
+---
+## Importance of Asking Smart Questions ##
+One of the most important skills for software engineers is knowing how to ask good questions. Eric Raymond’s How to Ask Questions the Smart Way emphasizes that clear, thoughtful questions save time, make it easier for others to help, and contribute to shared knowledge. Platforms like StackOverflow show how the way a question is asked directly affects the quality of the responses it receives.
+<img width="400px" src="../img/cybersec2.jpg" class="img-thumbnail" >
+
+## Goals for Developing Technical Security Skills ##
+A strong example I found is the following StackOverflow post: [A SMART Question](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) 
+
+In this question, the developer notices unexpected performance differences in a C++ program and clearly explains what is happening. They include a code snippet, timing results, and a clear explanation of what they expected versus what actually happened. Instead of simply asking for a fix, the question focuses on understanding why the behavior occurs. This shows effort, curiosity, and respect for the reader’s time, which closely follows the guidelines discussed by Eric Raymond.
+
+## The Community Responded to the Smart Question ##
+I also want to improve my problem-solving and analytical skills, since security-related work often requires careful attention to detail and logical thinking. Being able to break down complex systems, think through problems step by step, and anticipate how things might fail is especially important in this field. Many security issues come from small mistakes, so learning to spot those details matters a lot. Hands-on experiences, such as working through security-focused exercises, labs, or projects, seem like one of the best ways to build confidence and apply what I learn in a practical and meaningful way.
+
+## Insights Gained ##
+Comparing these examples helped me see why asking smart questions matters. Well-written questions lead to faster, clearer, and more meaningful answers, while poorly written ones force others to guess and reduce collaboration. Learning to ask good questions takes effort, but it ultimately improves communication, learning, and problem-solving in software engineering.
+
+*Used ChatGPT to help with grammar/punctuation*
