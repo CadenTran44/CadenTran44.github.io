@@ -1,14 +1,13 @@
 ---
 layout: essay
 type: essay
-title: "Exploring Cybersecurity Within Software Engineering"
+title: "The Value of Smart Questions"
 # All dates must be YYYY-MM-DD format!
-date: 2026-1-22
+date: 2026-1-29
 published: true
 labels:
   - Software Engineering
-  - Cybersecurity
-  - Technical Essay
+  - Communication
 ---
 ## Importance of Asking Smart Questions ##
 One of the most important skills for software engineers is knowing how to ask good questions. Eric Raymond’s How to Ask Questions the Smart Way emphasizes that clear, thoughtful questions save time, make it easier for others to help, and contribute to shared knowledge. Platforms like StackOverflow show how the way a question is asked directly affects the quality of the responses it receives.
